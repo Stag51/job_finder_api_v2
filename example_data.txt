@@ -1,0 +1,8 @@
+{
+  "position": "Machine Learning Engineer",
+  "experience": "2 years",
+  "salary": "70000 ",
+  "jobNature": "onsite",
+  "location": "Lahore, Islamabad, Karachi",
+  "skills": "Python, LLM"
+}
