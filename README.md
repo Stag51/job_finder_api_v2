@@ -80,16 +80,26 @@
  ## 📁 Project Structure
 
  ```
- job_finder_api/
- ├── app/
- │   ├── scraper/           # Scrapers for LinkedIn, Indeed, Google Jobs
- │   ├── services/          # LLM relevance logic and utilities
- │   ├── utils/             # Helper functions
- │   ├── main.py            # FastAPI entrypoint
- │   ├── config.py          # Configuration (API keys, etc.)
- │   ├── models.py          # Request/response models
- ├── example_data.txt       # Sample input/output
- ├── requirements.txt       # Python dependencies
+ job_finder_api_v2/ 
+├── app/ 
+│   ├── main.py          
+│   ├── models.py        
+│   ├── scraper 
+
+|	   ├── google.py 
+
+|	   ├── linkedin.py 
+
+|	   └── indeed.py.py    
+│   ├── services  
+
+|	   ├── job_fetcher.py 
+
+|	   └── relevance_filter.py      
+│   └── utils      
+│   		└── formatter.py         
+├── requirements.txt 
+├── README.md
  ```
 
  ---
