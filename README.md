@@ -10,7 +10,7 @@
  This project serves as a **Machine Learning Engineer Assessment** and demonstrates your ability to:
 
  - Build robust APIs with FastAPI.
- - Integrate web scraping tools (BeautifulSoup/Selenium/Scrapy).
+ - Integrate web scraping tools .
  - Fetch jobs from online platforms: **LinkedIn**, **Indeed**, and a third source **Google Jobs**
  - Use **LLMs (HuggingFace)** to analyze and rank job descriptions based on user-defined relevance.
 
@@ -20,7 +20,7 @@
 
  - **FastAPI** – API framework  
  - **Python** – Core language  
- - **BeautifulSoup / Selenium** – Web scraping  
+ - **JobSpy** – Web scraping  
  - **HTTPX / Requests** – Making API calls  
  - **OpenAI / HuggingFace Transformers / LangChain** – Relevance scoring with LLMs  
  - **Pydantic** – Input/output data models  
