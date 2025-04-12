@@ -33,10 +33,10 @@
  User Input (JSON) ──▶ FastAPI Endpoint
                           │
                           ▼
-         Fetch jobs from LinkedIn, Indeed, Rozee.pk (Scrapers)
+         Fetch jobs from LinkedIn, Indeed, Google Jobs (Scrapers)
                           │
                           ▼
-        Match relevance using LLMs (GPT/HuggingFace)
+        Match relevance using LLMs (HuggingFace)
                           │
                           ▼
           Return structured JSON with relevant jobs
@@ -143,20 +143,11 @@
 
  ## 📌 Notes
 
- - Ensure you have access to LLM API keys and job portals (if needed).  
- - Use headless browsing for JS-heavy portals.  
- - Logging & error handling included.  
-
- ---
-
- ## ✨ Future Enhancements
-
- - Dockerize the project for easy deployment  
- - Add frontend for visualization  
- - Enable user authentication and job alerts  
-
+ - It may give the output with null values because some job descriptions doesn't provide every thing like salary etc.  
+   
+ 
  ---
  ## 👨‍💻 Author
 
  **Your Name**  
- [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+ [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/saad51)) | [GitHub](https://github.com/Stag51)
