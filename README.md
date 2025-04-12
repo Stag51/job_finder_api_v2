@@ -1,6 +1,6 @@
 # 🔍 Job Finder API
 
- A FastAPI-based intelligent job scraping and matching API that aggregates listings from LinkedIn, Indeed, and one additional job portal. 
+ A FastAPI-based intelligent job scraping and matching API that aggregates listings from LinkedIn, Indeed, and Google Jobs. 
  It processes job search criteria using LLMs to return only the most relevant listings, structured and ready for consumption.
 
  ---
