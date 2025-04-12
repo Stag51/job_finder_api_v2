@@ -12,7 +12,7 @@
  - Build robust APIs with FastAPI.
  - Integrate web scraping tools (BeautifulSoup/Selenium/Scrapy).
  - Fetch jobs from online platforms: **LinkedIn**, **Indeed**, and a third source **Google Jobs**
- - Use **LLMs (OpenAI/HuggingFace)** to analyze and rank job descriptions based on user-defined relevance.
+ - Use **LLMs (HuggingFace)** to analyze and rank job descriptions based on user-defined relevance.
 
  ---
 
@@ -82,7 +82,7 @@
  ```
  job_finder_api/
  ├── app/
- │   ├── scraper/           # Scrapers for LinkedIn, Indeed, Rozee.pk
+ │   ├── scraper/           # Scrapers for LinkedIn, Indeed, Google Jobs
  │   ├── services/          # LLM relevance logic and utilities
  │   ├── utils/             # Helper functions
  │   ├── main.py            # FastAPI entrypoint
@@ -143,11 +143,13 @@
 
  ## 📌 Notes
 
- - It may give the output with null values because some job descriptions doesn't provide every thing like salary etc.  
+ - It may give the output with null values because some job descriptions doesn't provide every thing like salary etc.
+ - It's performance can be optimized using OpenAI's advanced models APIs (which are paid)
+
    
  
  ---
  ## 👨‍💻 Author
 
  **Your Name**  
- [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/saad51)) | [GitHub](https://github.com/Stag51)
+ [LinkedIn](https://www.linkedin.com/in/saad51) | [GitHub](https://github.com/Stag51)
