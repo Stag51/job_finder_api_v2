@@ -50,24 +50,24 @@
 
  **Request Body (JSON):**
  ```json
- {
-   "position": "Full Stack Engineer",
-   "experience": "2 years",
-   "salary": "70,000 PKR to 120,000 PKR",
-   "jobNature": "onsite",
-   "location": "Peshawar, Pakistan",
-   "skills": "full stack, MERN"
- }
+{
+  "position": "Machine Learning Engineer",
+  "experience": "2 years",
+  "salary": "70000 ",
+  "jobNature": "onsite",
+  "location": "Lahore, Islamabad, Karachi",
+  "skills": "Python, LLM"
+}
  ```
 
  **Response Format:**
  ```json
  [
    {
-     "title": "Full Stack Developer",
-     "company": "Tech Innovations",
-     "location": "Peshawar, Pakistan",
-     "summary": "Looking for a MERN full stack developer with 2+ years experience...",
+     "title": "Machine Learning Engineer",
+     "company": "ABC",
+     "location": "Lahore, Pakistan",
+     "summary": "Looking for an ML developer with 2+ years experience...",
      "apply_link": "https://...",
      "source": "LinkedIn"
    },
@@ -139,14 +139,14 @@
  ```bash
  curl -X POST http://127.0.0.1:8000/search_jobs \
       -H "Content-Type: application/json" \
-      -d '{
-            "position": "Full Stack Engineer",
-            "experience": "2 years",
-            "salary": "70,000 PKR to 120,000 PKR",
-            "jobNature": "onsite",
-            "location": "Peshawar, Pakistan",
-            "skills": "full stack, MERN"
-          }'
+                    -d '{
+                "position": "Machine Learning Engineer",
+                "experience": "2 years",
+                "salary": "70000 ",
+                "jobNature": "onsite",
+                "location": "Lahore, Islamabad, Karachi",
+                "skills": "Python, LLM"
+              }'
  ```
 
  ---
